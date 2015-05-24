@@ -172,8 +172,6 @@ As far as the transesterification is concerned, the UCO normally follows a diffe
 
 Some biodiesel producers that do not have their plants adapted to work with UCO, if they aim to use UCO, normally add a small part (e.g., 10\%) to their main streams, e.g., rapeseed oil. With this, they do not need to adapt their plants to deal with this lower quality resource, while producing a high-quality~biodiesel.
 
-The inputs and outputs of the transesterification phase can be seen in Table \ref{table1} together with the flow diagram of Figure \ref{fig1}. These data have been obtained from an LCA carried out by CIEMAT \cite{CIEMAT2005}, based on a supply chain established in the north of Spain and with data of two real biodiesel production plants using this resource. It is important to note that in this case, for the production of steam, diesel fuel is considered instead of natural gas.
-
 \begin{table}[H]
 \centering \small
 \caption[Consumption data for processes considered in the life cycle analysis for UCO]{Consumption data for processes considered in the life cycle analysis for UCO. Source: CIEMAT \cite{CIEMAT2005}.}
@@ -205,6 +203,8 @@ The inputs and outputs of the transesterification phase can be seen in Table \re
 \end{tabularx}
 \label{table1}
 \end{table}
+
+The inputs and outputs of the transesterification phase can be seen in Table \ref{table1} together with the flow diagram of Figure \ref{fig1}. These data have been obtained from an LCA carried out by CIEMAT \cite{CIEMAT2005}, based on a supply chain established in the north of Spain and with data of two real biodiesel production plants using this resource. It is important to note that in this case, for the production of steam, diesel fuel is considered instead of natural gas.
 
 \FloatBarrier
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -306,7 +306,7 @@ where \mopcr{P} is called the production cost matrix, and its elements $\pi_{ij}
  \toprule
    &  & & &  & \multicolumn{2}{c}{\bf Exergy} & \multicolumn{2}{c}{\bf Cost} \\
  \cmidrule(r){6-7} \cmidrule(r){8-9}
- {\bf Material} & {\bf Process} & {\bf I/O} & {\bf Unit} \textbf{(u)} & \textbf{u/\kfame} & \textbf{MJ/u} & \textbf{MJ/\kfame} & \textbf{MJ/u} & \textbf{MJ/\kfame} \\
+ {\bf Material} & {\bf Process} & {\bf I/O} & {\bf Unit}(u) & { u/\kfame} & MJ/u & MJ/\kfame & MJ/u & MJ/\kfame \\
  \midrule
  Diesel   & 1 & Input & MJ & 0.6459 & 1.0000 & 0.6459 & 1.1773 & 0.7604 \\
  UCO   & 1 & Output & kg & 1.3368 & 39.5994 & 52.9364 & -  & - \\
@@ -371,10 +371,6 @@ The local and global distribution matrices, are obtained from Table \ref{table4}
 \end{bmatrix}
 \]
 
-
-
-
- 
 The production exergy cost can be decomposed \cite{Torres2012b}, considering the different types of resources required. The resources cost vector can be separated into two terms:
 \begin{equation}
 \label{ce}
@@ -413,7 +409,7 @@ The results of the cost analysis, obtained by applying Equation (\ref{cpnrs}), a
  \begin{tabularx}{0.8\textwidth}{clZZZZZ}
  \toprule
   &       & \boldmath$\ems[nrs]{C}{e}$ & \boldmath$C_P$ & \boldmath$\ems[rs]{C}{P}$ & \boldmath$\ems[nrs]{C}{P}$ & \boldmath$\rho$ \\
- \textbf{No. } &\textbf{ Process     }& \textbf{MJ/Kg } & \textbf{MJ/kg} & \textbf{MJ/Kg} & \textbf{MJ/kg} & \textbf{\%} \\
+ \textbf{No}.  & \textbf{Process} & MJ/Kg & MJ/kg & MJ/Kg & MJ/kg & \% \\
  \midrule
  1 & Collection   & 0.76 & 53.697 & 52.936 & 0.760 & 98.58 \\
  2 & Refining    & 1.39 & 55.083 & 52.936 & 2.146 & 96.10 \\
