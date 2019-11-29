@@ -1,8 +1,10 @@
-# Thermoeconomic Analysis of Biodiesel Production from Used Cooking Oils
+# Exergoecoloy as a tool for ecological modelling.
+### The case of the North American Food Chain
+
 
 **Paper publised in:** Sustainability
  
-**Authors:** Emilio Font de Mora, CÃ©sar Torres and Antonio Valero
+**Authors:** Emilio Font de Mora, César Torres and Antonio Valero
 
 ## Abstract
 
